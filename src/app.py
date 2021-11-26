@@ -9,8 +9,8 @@ animedict = {
     "Weapon" : "Two daggers"
 }
 
-
-print(len(animedict))
+x = animedict.keys()
+print(x)
 
 
 
