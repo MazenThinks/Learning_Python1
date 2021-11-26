@@ -8,11 +8,9 @@ animedict = {
     "Gender" : "Male" ,
     "Weapon" : "Two daggers"
 }
-animedict["Hair"] = "Yellow"
 
-
-animedict.pop("Hair")
-print(animedict)
+for x in animedict :
+    print(x)
 
 
 
