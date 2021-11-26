@@ -8,9 +8,9 @@ animedict = {
     "Gender" : "Male" ,
     "Weapon" : "Two daggers"
 }
+animedict["Hair"] = "Yellow"
 
-x = animedict.items()
-print(x)
+print(animedict)
 
 
 
