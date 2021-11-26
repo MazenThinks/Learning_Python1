@@ -6,11 +6,11 @@ anime_set2 = {"Ereh" , "Ylva" , "Helga"}
 
 anime_set.update(anime_set2)
 
-anime_set.remove("Ereh")
+anime_set.remove("Ereh") # or discard
 
 print(anime_set)
 
-
+# aaand sets is done hea
 
 
 
