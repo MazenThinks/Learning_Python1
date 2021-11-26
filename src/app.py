@@ -10,7 +10,7 @@ animedict = {
 }
 
 
-print(animedict["Name"])
+print(len(animedict))
 
 
 
