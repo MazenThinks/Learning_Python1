@@ -2,8 +2,9 @@
 
 anime_set = set(("Levi" , "Torphin" , "luther"))
 
-print(type(anime_set))
 
+for x in anime_set :
+    print(x)
 
 
 
