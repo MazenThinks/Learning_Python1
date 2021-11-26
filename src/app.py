@@ -3,12 +3,9 @@
 anime_set = set(("Levi" , "Torphin" , "luther"))
 
 
-print("Levi" in anime_set)
+anime_set.add("Takemichi")
 
-
-
-
-
+print(anime_set)
 
 
 
