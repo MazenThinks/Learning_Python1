@@ -10,6 +10,8 @@ animedict = {
 }
 animedict["Hair"] = "Yellow"
 
+
+animedict.pop("Hair")
 print(animedict)
 
 
