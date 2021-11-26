@@ -10,7 +10,7 @@ animedict = {
 }
 
 for x in animedict :
-    print(x)
+    print(animedict[x])
 
 
 
