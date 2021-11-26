@@ -3,60 +3,7 @@
 anime_set = set(("Levi" , "Torphin" , "luther"))
 
 
-for x in anime_set :
-    print(x)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print("Levi" in anime_set)
 
 
 
