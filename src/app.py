@@ -9,7 +9,7 @@ animedict = {
     "Weapon" : "Two daggers"
 }
 
-x = animedict.values()
+x = animedict.items()
 print(x)
 
 
