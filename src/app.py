@@ -1,10 +1,11 @@
 
 
-def my_func():
-    print("A function")
+def weapons(weapon):
+    print(weapon +" is a weapon")
 
 
-my_func()
+weapons("Sword")
+weapons("Pistol")
 
 
 
