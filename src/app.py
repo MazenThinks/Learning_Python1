@@ -1,17 +1,7 @@
 
+x = lambda a , b : a + b 
 
-def weapons(weapon):
-    print(weapon +" is a weapon")
-
-
-weapons("Sword")
-weapons("Pistol")
-
-
-
-
-   
-
+print(x(5 , 6))
 
 
 
