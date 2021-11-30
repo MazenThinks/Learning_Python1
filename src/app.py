@@ -3,8 +3,8 @@ class personal_id :
         self.name = name
         self.age = age
 
+    def my_func(self):
+        print("My name is " + self.name)
+
 id = personal_id("Thorfinn" , "15")
-
-
-print(id.name)
-print(id.age)
+id.my_func()
