@@ -1,51 +1,9 @@
+n = input("gonna double ur numba just type it : ")
 
-
-
-
-
-def my_function(n):
+def my_function():
+    global n
     return lambda a : a * n
 
-same_function = my_function(5)
+function_doubler = my_function()
 
-print(same_function(6))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(function_doubler(2))
