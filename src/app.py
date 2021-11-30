@@ -1,14 +1,14 @@
 
-x = lambda a , b : a + b 
-
-print(x(5 , 6))
 
 
 
 
+def my_function(n):
+    return lambda a : a * n
 
+same_function = my_function(5)
 
-
+print(same_function(6))
 
 
 
