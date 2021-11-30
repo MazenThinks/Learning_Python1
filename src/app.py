@@ -1,4 +1,10 @@
-class MyClass :
-    x = 1
+class personal_id :
+    def __init__(self , name , age):
+        self.name = name
+        self.age = age
 
-print(MyClass.x)
+id = personal_id("Thorfinn" , "15")
+
+
+print(id.name)
+print(id.age)
