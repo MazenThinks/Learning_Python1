@@ -1,3 +1,4 @@
-import mymodule
+import platform
 
-mymodule.greeting("Agent 47")
+x = platform.system()
+print(x)
