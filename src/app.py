@@ -1,4 +1,5 @@
-import platform
+import math
 
-x = platform.system()
+x = math.pi
+
 print(x)
