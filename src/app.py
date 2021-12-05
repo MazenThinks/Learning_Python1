@@ -1,5 +1,7 @@
-import math
+import json
 
-x = math.sqrt(36)
+x = '{ "Name" : "Thorfinn" , "Age" : 15 , "Weapon" : "2 Daggers" }'
 
-print(x)
+y = json.loads(x)
+
+print(y["Age"])
