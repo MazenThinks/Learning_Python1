@@ -1,5 +1,5 @@
 import math
 
-x = math.pi
+x = math.sqrt(36)
 
 print(x)
